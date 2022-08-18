@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-fs.readFile("./words.txt", "utf8", (err, data) => {
+fs.readFile("./words_alpha.txt", "utf8", (err, data) => {
   if (err) throw err;
 
   let words = data.split("\n");
