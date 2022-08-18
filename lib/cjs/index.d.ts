@@ -1,2 +1,5 @@
-import words from "./words.json";
-export { words };
+declare const _default: {
+    words: string[];
+    dictionaryWords: string[];
+};
+export default _default;
