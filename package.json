@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "An Array of half a million english words.",
   "type": "module",
-  "main": "index.js",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
@@ -16,7 +18,15 @@
   "author": "MohamedBechirMejri",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-json": "^4.1.0",
-    "rollup": "^2.78.0"
-  }
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.78.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.32.1"
+  },
+  "files": [
+    "/lib"
+  ]
 }
