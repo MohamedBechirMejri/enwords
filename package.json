@@ -2,6 +2,7 @@
   "name": "enwords",
   "version": "1.0.0",
   "description": "An Array of half a million english words.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
