@@ -15,6 +15,13 @@
     "array",
     "list"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedBechirMejri/enwords.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MohamedBechirMejri/enwords/issues"
+  },
   "author": "MohamedBechirMejri",
   "license": "MIT",
   "devDependencies": {
