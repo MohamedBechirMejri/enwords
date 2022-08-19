@@ -23,4 +23,8 @@ import {
 
 MIT
 
+## Credits
+
+Thanks to [@dwyl](https://github.com/dwyl) for the [words list](https://github.com/dwyl/english-words).
+
 ***⭐ Star this repo if it helped you! ⭐***
