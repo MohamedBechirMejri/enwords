@@ -1,6 +1,6 @@
 {
   "name": "enwords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Array of half a million english words. (466,550)",
   "type": "module",
   "main": "./lib/cjs/index.cjs",
