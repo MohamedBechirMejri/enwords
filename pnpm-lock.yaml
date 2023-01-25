@@ -7,6 +7,7 @@ specifiers:
   rollup: ^3.10.1
   rollup-plugin-peer-deps-external: ^2.2.4
   rollup-plugin-typescript2: ^0.34.1
+  typescript: ^4.9.4
 
 devDependencies:
   '@rollup/plugin-commonjs': 24.0.1_rollup@3.10.1
@@ -14,7 +15,8 @@ devDependencies:
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.10.1
   rollup: 3.10.1
   rollup-plugin-peer-deps-external: 2.2.4_rollup@3.10.1
-  rollup-plugin-typescript2: 0.34.1_rollup@3.10.1
+  rollup-plugin-typescript2: 0.34.1_p3yyytxbmytz5gvmi4zzszibjy
+  typescript: 4.9.4
 
 packages:
 
@@ -334,7 +336,7 @@ packages:
       rollup: 3.10.1
     dev: true
 
-  /rollup-plugin-typescript2/0.34.1_rollup@3.10.1:
+  /rollup-plugin-typescript2/0.34.1_p3yyytxbmytz5gvmi4zzszibjy:
     resolution: {integrity: sha512-P4cHLtGikESmqi1CA+tdMDUv8WbQV48mzPYt77TSTOPJpERyZ9TXdDgjSDix8Fkqce6soYz3+fa4lrC93IEkcw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -346,6 +348,7 @@ packages:
       rollup: 3.10.1
       semver: 7.3.8
       tslib: 2.4.1
+      typescript: 4.9.4
     dev: true
 
   /rollup/3.10.1:
@@ -376,6 +379,12 @@ packages:
 
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+    dev: true
+
+  /typescript/4.9.4:
+    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /universalify/2.0.0:
